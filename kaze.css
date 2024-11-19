@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font: normal bold 14px/1.2em Arial,Verdana,Helvetica; */
+}
+
+body {
+    background-image: url(./img/parallaxbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+#Navigation-bar{
+position: fixed;
+width: 100%;
+}
+#nav-list {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+#head-list {
+    list-style: none;
+    text-align: center;
+    display: inline;
+    height: auto;
+    width: 130px;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    font: normal bold 14px/1.2em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    border-right: 1px solid #54879d;
+    /* width: 12% !important; */
+
+}
+
+.header-nav-list {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+header>ul>li {
+    position: relative;
+    display: block;
+    padding: 12px 15px;
+    text-transform: uppercase;
+}
+
+#logo-img {
+    height: 110px;
+    width: 210px;
+}
+
+#logo-icon {
+    margin-left: 60px;
+}
+
+nav {
+    height: 110px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    border-bottom: 5px solid rgb(111, 193, 12);
+}
+
+.home-img {
+    height: 600px;
+    width: 100%;
+}
+
+.back-img {
+    height: auto;
+    width: 100%;
+}
+
+.mline {
+    text-align: center;
+    height: 200px;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.mline>hr {
+    background-color: white;
+    width: 80%;
+    height: 4px;
+    margin-left: 10%;
+}
+
+.mcard {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card1 {
+    /* height: 2000px;
+    width: 200px; */
+    background-color: #000;
+    margin-left: 50px;
+}
+
+.card1 p {
+    height: 90px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.card1>img {
+    height: 250px;
+    width: 250px;
+}
+
+.btn p{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: greenyellow;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#footer{
+    background-color: #000;
+    height: vh;
+    width:100%;
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-evenly;
+}
+#footer h1{
+    color: white;
+}.fcard1 img{
+    height: 100px;
+    width: 200px;
+}
+.fcard1 p{
+    color: white;
+}
+.bfooter{
+    margin-top: 50px;
+    background-color: #000;
+    height: 80px;
+    width: 100%;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+.bfooter div{
+    /* text-align: center;
+    align-items: center; */
+    display: flex;
+    justify-content: center;
+}
